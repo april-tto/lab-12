@@ -21,7 +21,9 @@ function SubmitForm() {
           value={data}
           onChange={(e) => setData(e.target.value)}
           placeholder="Enter data"
+
         />
+        <h1>Additional information</h1>
         <button type="submit">Submit</button>
       </form>
       {response && <p>Response: {response}</p>}
